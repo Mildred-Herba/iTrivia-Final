@@ -1,0 +1,161 @@
+body {
+    color: white;
+    background-color: #0F132E;
+
+}
+
+.signForm{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-content:center;
+}
+
+.signUp{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content:space-evenly;
+}
+
+.fullNameCon{
+    position: relative;
+    background-color: white;
+    width: 450px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.fa-user, .fa-envelope, .fa-lock{
+    position: absolute;
+    top: 33%;
+    left: 5%;
+}
+
+.lblFullName, .lblFirstName, .lblPasswordOne, .lblConfirmPass{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    color: white;
+    font-size: xx-small;
+    font-family: arial;
+    text-align: top;
+}
+
+.fullName, .firstName, .passwordSign, .confirmPass{
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    background-color: #5A5858;
+    color: white;
+    font-family: Arial Rounded MT;
+}
+
+
+.fullNameCon, .firstNameCon, .passWordCon, .conFrimPass{
+    position: relative;
+    background-color: #5A5858;
+    width: 500px;
+    height: 50px;
+    border-radius: 18px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.btnSign{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial Rounded MT;
+    color: white;
+}
+
+
+.btnSignBlue{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    margin-top: -60px;
+    background-color: #00FFFF;
+    margin-left: 10px;
+    font-size: large;
+    font-family: Arial;
+}
+
+.forgotPass, .endLineOne, .logIn {
+    color: #00FFFF;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial Rounded MT;
+    font-size: medium;
+}
+.endLineOne {
+    margin-top: 35px;
+}
+
+.welcome{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-content:center;
+}
+
+.heading {
+    text-align: center;
+    justify-content: center;
+    font-family: Arial;
+    
+}
+
+.welcomeiTrivia {
+    font-family: Arial Rounded MT;
+    font-size: xx-large;
+    margin-bottom: -10px;
+}
+
+.btnContinue{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial Rounded MT;
+    color: #00FFFF;
+}
+
+
+.logOut{
+    font-family: Arial Rounded MT;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: x-large;
+    margin-left: 1250px;
+   
+}
+
+.pageOne {
+    font-family: Arial Rounded MT;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.headLine, .createAcc {
+    font-family: Arial Rounded MT;
+   font-size: larger;
+   justify-content: center;
+   text-align: center;
+}

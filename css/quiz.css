@@ -1,0 +1,114 @@
+body {
+    color: white;
+    background-color: #0F132E;
+    font-family: Arial Rounded MT;
+}
+
+.background-image {
+    width: 1340px;
+    height: 635px;
+    margin-top: -78px;
+    margin-left: -30px;
+    background-image: url(background-img.png);
+    background-size: cover;
+    z-index: -100;
+}
+
+.quiz {
+    margin-left: 30px;
+    font-size: small;
+}
+
+.score {
+    margin-left: 1145px;
+    margin-top: -45px;
+    font-size: large;
+}
+
+.q1{
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+    margin-top: -500px;
+    color: black;
+}
+
+.panel {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 520px;
+    height: 150px;
+    margin-left: 380px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btnleft {
+    width: 200PX;;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 7px;
+    background-color: #7FFFD4;
+    margin-left: -260px;
+    font-size: large;
+    color: black;
+    font-family: Arial Rounded MT;
+}
+
+.btnleftdown {
+    width: 200PX;;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    margin-top: -68px;
+    background-color: #7FFFD4;
+    margin-right: -250px;
+    font-size: large;
+    color: black;
+    font-family: Arial Rounded MT;
+}
+
+.btnright {
+    width: 200PX;;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    margin-top: -25px;
+    background-color: #7FFFD4;
+    margin-right: 259px;
+    font-size: large;
+    color: black;
+    font-family: Arial Rounded MT;
+}
+
+.btnrightdown {
+    width: 200PX;;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    margin-top: -68px;
+    background-color: #7FFFD4;
+    margin-right: -250px;
+    font-size: large;
+    color: black;
+    font-family: Arial Rounded MT;
+}
+
+.btnleft:hover,
+.btnleftdown:hover,
+.btnright:hover,
+.btnrightdown:hover {
+    background-color: lightgreen;
+}

@@ -1,0 +1,109 @@
+body {
+    color: white;
+    background-color: #0F132E;
+    font-family: Arial Rounded MT;
+}
+
+.iTrivia {
+    margin-left: 23px;
+    font-size: small;
+}
+
+.logOut {
+    margin-left: 1332px;
+    margin-top: -40px;
+    font-size: small;
+}
+
+.iT {
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+}
+
+.singlePlayer {
+    position: relative;
+    background-color: #32CD32;
+    width: 180px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    margin-bottom: 18px;
+    margin-left: 450px;
+}
+
+.lblsPlayer {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 18%;
+    left: 18%;
+    color:white;
+    text-align: top;
+    font-size: large;
+}
+
+.multiPlayer {
+    position: relative;
+    background-color: #32CD32;
+    width: 180px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    margin-left: 850px;
+    margin-top: -58px;
+}
+
+.lblmPlayer {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 18%;
+    left: 23%;
+    color:white;
+    text-align: top;
+    font-size: large;
+}
+
+.btnTriv{
+    width: 180px;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 12px;
+    background-color: #3CB371;
+    margin-left: 450px;
+    font-size: large;
+    color: white;
+    font-family: Arial Rounded MT;
+}
+
+.btnQuiz, .btnCode, .btnSpeed{
+    width: 180PX;;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 7px;
+    background-color: #3CB371;
+    margin-left: 450px;
+    font-size: large;
+    color: white;
+    font-family: Arial Rounded MT;
+}
+
+.btnQuizMP, .btnCodeMP, .btnSpeedMP {
+    width: 180px;;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 7px;
+    background-color: #3CB371;
+    margin-left: 850px;
+    font-size: large;
+    color: white;
+    font-family: Arial Rounded MT;
+    bottom: 173px;
+}

@@ -1,0 +1,107 @@
+:root{
+    --editor-bg: #eee;
+    --editor-border: #3f87a6;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width:100%;
+    background: #001e4d;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 12%;
+    width: 100%;
+    background: #101b30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+
+.thisLogo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 30px;
+
+}
+
+nav a{
+    font-size: 18px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+nav a:hover{
+    color: rgb(161, 210, 253);
+}
+
+
+div.editor{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #001e4d;
+}
+
+div.eWrap{
+    margin-top: 40px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    background-color: var(--editor-bg);
+    padding: 2em;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+div.ebody{
+    flex: 1;
+}
+
+div.eCode{
+    margin-top: 10px;
+    position: relative;
+    height: 250px;
+    width: 850px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid black
+}
+
+div.efooter{
+    display: flex;
+}
+
+div.eOutput{
+    margin: 20px;
+    background-color: #fff;
+    width: 550px;
+    height: 100px;
+    border: 1px solid var(--editor-border);
+    overflow: auto;
+}
